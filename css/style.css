@@ -1,0 +1,139 @@
+* {
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    background-color: #eee;
+    font-family: "Roboto", Arial, serif;
+    line-height: 1.8;
+    font-weight: 300;
+    font-size: 16px;
+    color: #999;
+    -ms-overflow-style: scrollbar;
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #79a4bd;
+}
+
+.parallax-container {
+  min-height: 32em;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+.main {
+  margin-bottom: 100px;
+}
+
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.brand-logo-custom {
+  width: 7rem;
+  padding-top: 5px;
+}
+
+.scuvo-color-text {
+  color: #79a4bd;
+}
+
+.scuvo-color-bg {
+  background-color: #79a4bd;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.btn-margin-right {
+  margin-right: 20px;
+}
+
+.guides-caution {
+  padding: 20px 20px 20px 20px;
+}
+
+/* form label colors */
+
+  /* label color */
+   .input-field label {
+     color: #79a4bd;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #79a4bd;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #79a4bd;
+     box-shadow: 0 1px 0 0 #79a4bd;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #79a4bd;
+     box-shadow: 0 1px 0 0 #79a4bd;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #79a4bd;
+     box-shadow: 0 1px 0 0 #79a4bd;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #79a4bd;
+   }
+
+.prop-hidden {
+  display: none;
+}
+
+.google-icon {
+  padding-top: 1rem;
+}
